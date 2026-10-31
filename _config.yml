@@ -4,9 +4,9 @@ author: The Space Outlawz
 email: my@email.com
 lang: en-us
 copyright: "The Space Outlaws, 2026"
-logo: /assets/img/IMG_1614.jpeg
+logo: /assets/img/IMG_1615.png
 # baseurl: "" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://techtalk.entraptadoeztech.nya.je/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
