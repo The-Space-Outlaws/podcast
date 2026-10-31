@@ -2,15 +2,15 @@
 @import "rouge-github";
 
 body {
-  background-color: #00649F;
+  background-color: #fff;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:blueviolet;
+  color:#727272;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:violet;
+  color:#222;
   margin:0 0 20px;
 }
 
@@ -35,7 +35,7 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:pink;
+  color:#267CB9;
   text-decoration:none;
 }
 
