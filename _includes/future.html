@@ -1,5 +1,5 @@
 <table>
-  {% for future in site.future %}
+  {% for now in site.future %}
   <tr>
 <!-- TODO: Add a thumbnail
     <td>
@@ -9,8 +9,8 @@
     </td>
 -->
     <td>
-      <a href="{{ future.url | absolute_url }}">{{ future.title }}</a><br />
-      <small>{{ future.date | date: "%-d %B %Y" }}</small>
+      <a href="{{ now.url | absolute_url }}">{{ now.title }}</a><br />
+      <small>{{ now.date | date: "%-d %B %Y" }}</small>
     </td>
   </tr>
   {% endfor %}
