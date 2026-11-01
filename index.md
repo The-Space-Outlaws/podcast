@@ -5,3 +5,4 @@ layout: default
 {% include navigation.html %}
 
 <h2>Upcoming Episodes</h2>
+{% include future.html %}
