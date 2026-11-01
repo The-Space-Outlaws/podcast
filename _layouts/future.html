@@ -2,22 +2,22 @@
 layout: default
 ---
 
-<small>{{ now.date | date: "%-d %B %Y" }}</small>
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
 <h2>
-    {{ now.title }}
+    {{ page.title }}
     <br />
-    <small>{{ now.subtitle }}</small>
+    <small>{{ page.subtitle }}</small>
 </h2>
 
 <section>
     <audio class="podcast" preload="auto" controls>
-      <source src="{{ now.mp3-url | prepend: site.baseurl | prepend: site.url }}" type="audio/mp3" />
+      <source src="{{ page.mp3-url | prepend: site.baseurl | prepend: site.url }}" type="audio/mp3" />
     </audio>
 </section>
 
 <h3>About This Episode</h3>
 {{content}}
 
-{% if now.keywords %}
-  <small>tags: <em>{{ now.keywords | join: "</em>, <em>" }}</em></small>
+{% if page.keywords %}
+  <small>tags: <em>{{ page.keywords | join: "</em>, <em>" }}</em></small>
 {% endif %}
