@@ -30,10 +30,12 @@
 
       </section>
       <footer>
-        {{ site.copyright }}
         {% if site.button %}
         <img id="button" src="{{site.button | relative_url}}" alt="button"/>
         {% endif %}
+        <br>
+        <br>
+        {{ site.copyright }}
       </footer>
     </div>
     {% if site.google_analytics %}
