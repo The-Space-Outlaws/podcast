@@ -1,15 +1,8 @@
 <table>
   {% for now in site.future %}
   <tr>
-<!-- TODO: Add a thumbnail
     <td>
-      <a href="{{ post.url | absolute_url }}">
-        <img src="{{"assets/img/play.png" | relative_url}}" alt="Play" />
-      </a>
-    </td>
--->
-    <td>
-      <a href="{{ now.url | absolute_url }}">{{ now.title }}</a><br />
+      <a href="{{ now.url | relative_url }}">{{ now.title }}</a><br />
       <small>{{ now.date | date: "%-d %B %Y" }}</small>
     </td>
   </tr>
