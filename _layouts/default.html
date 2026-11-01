@@ -29,7 +29,12 @@
       {{ content }}
 
       </section>
-      <footer>{{ site.copyright }}</footer>
+      <footer>
+        {{ site.copyright }}
+        {% if site.button %}
+        <img id="button" src="{{site.button | relative_url}}" alt="button"/>
+        {% endif %}
+      </footer>
     </div>
     {% if site.google_analytics %}
     <script>
