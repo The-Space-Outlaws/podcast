@@ -6,6 +6,9 @@ layout: default
 <h2>
     {{ page.title }}
     <br />
+    {% if site.banner-url %}
+        <img id="banner-url" src="{{site.banner-url| relative_url}}" alt="banner" style = "width:100px;"/>
+        {% endif %}
     <small>{{ page.subtitle }}</small>
 </h2>
 
