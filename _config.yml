@@ -7,7 +7,7 @@ lang: en-us
 copyright: "The Space Outlaws, 2026"
 logo: /assets/img/IMG_1615.png
 # baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://techtalk.entraptadoeztech.nya.je/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://techtalk.entraptadoeztech.nya.je/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -15,3 +15,8 @@ url: "https://techtalk.entraptadoeztech.nya.je/" # the base hostname & protocol 
 exclude:
   - Gemfile
   - Gemfile.lock
+
+collections:
+  future:
+    output: true
+    permalink: /future/:name/
