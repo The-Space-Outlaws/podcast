@@ -31,9 +31,9 @@
       </section>
       <footer>
         <h3>{{ site.blink }}</h3>
-        {% if site.button %}
-        <img id="button" src="{{site.button | relative_url}}" alt="button"/>
-        {% endif %} 
+           <marquee direction="right" behavior="scroll" scrollamount="15">
+    <img id="button" src="{{site.button | relative_url}}" alt="button"/>
+           </marquee>
         <br>
         {{ site.copyright }}
       </footer>
