@@ -7,6 +7,7 @@ lang: en-us
 blink: Here are some blinkies and buttons!
 pfp: /assets/img/IMG_1466.gif
 button: /assets/img/IMG_1540.gif
+site-button: /assets/img/IMG_1461.jpeg
 copyright: "The Space Outlaws, 2026"
 logo: /assets/img/IMG_1615.png
 # baseurl: "" # the subpath of your site, e.g. /blog
