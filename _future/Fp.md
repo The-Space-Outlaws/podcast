@@ -1,10 +1,11 @@
 ---
-title:        "Future Episode?!"
-subtitle:     "come back later"
+title:        "Miraculous Ladybug podcast"
+subtitle:     "come back later to hear us yap about the new season of Miraculous Ladybug"
 date:         2026-11-1 13:55:09
 banner-url: "/assets/img/IMG_1629.gif"
 keywords:
-- future_episode
+- fun
+- off-topic 
 mp3-url:      ""
 episode-type: trailer # or "full"
 explicit:     "no"
