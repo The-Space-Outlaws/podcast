@@ -8,6 +8,8 @@ layout: default
     <br />
     {% if page.when-aired %}
     <h3> {{ page.when-aired }}</h3>
+    {% endif %}
+    <br />
     {% if page.banner-url %}
         <img id="banner-url" src="{{page.banner-url| relative_url}}" alt="banner" style = "width:200px;"/>
         {% endif %}
