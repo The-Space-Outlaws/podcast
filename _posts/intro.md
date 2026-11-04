@@ -12,5 +12,4 @@ block:        "no" # no means it is published
 layout: podcast
 excerpt_separator: 
 ---
-<h3>Excerpt From The Episode</h3>
 ”…Thank you for tuning into k-12 tech students talk…”
