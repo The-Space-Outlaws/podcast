@@ -1,5 +1,5 @@
 ---
-title:        "’I never thought old prodigy would ever come back…’"
+title:        "”I never thought old prodigy would ever come back…”"
 subtitle:     "We will be talking about old Prodigy and how it may be revived! We are excited for this one :0"
 when-aired: "❗️This episode will likely be aired Early 2027❗️"
 date:         2026-11-13 13:55:09
